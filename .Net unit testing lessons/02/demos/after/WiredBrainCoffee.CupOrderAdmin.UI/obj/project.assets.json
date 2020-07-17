@@ -1,0 +1,367 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Microsoft.Extensions.DependencyInjection/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WiredBrainCoffee.CupOrderAdmin.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.Core.dll": {}
+        }
+      },
+      "WiredBrainCoffee.CupOrderAdmin.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "WiredBrainCoffee.CupOrderAdmin.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.DataAccess.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Microsoft.Extensions.DependencyInjection/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WiredBrainCoffee.CupOrderAdmin.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.Core.dll": {}
+        }
+      },
+      "WiredBrainCoffee.CupOrderAdmin.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "WiredBrainCoffee.CupOrderAdmin.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.DataAccess.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Microsoft.Extensions.DependencyInjection/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WiredBrainCoffee.CupOrderAdmin.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.Core.dll": {}
+        }
+      },
+      "WiredBrainCoffee.CupOrderAdmin.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "WiredBrainCoffee.CupOrderAdmin.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.DataAccess.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Microsoft.Extensions.DependencyInjection/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WiredBrainCoffee.CupOrderAdmin.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.Core.dll": {}
+        }
+      },
+      "WiredBrainCoffee.CupOrderAdmin.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "WiredBrainCoffee.CupOrderAdmin.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WiredBrainCoffee.CupOrderAdmin.DataAccess.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection/2.2.0": {
+      "sha512": "MZtBIwfDFork5vfjpJdG5g8wuJFt7d/y3LOSVVtDK/76wlbtz6cjltfKHqLx2TKVqTj5/c41t77m1+h20zqtPA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+      "sha512": "f9hstgjVmr6rmrfGSpfsVOl2irKAgr1QjrSi3FgnS7kulxband50f2brRLwySAQTADPZeTdow0mpSMcoAdadCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "WiredBrainCoffee.CupOrderAdmin.Core/1.0.0": {
+      "type": "project",
+      "path": "../WiredBrainCoffee.CupOrderAdmin.Core/WiredBrainCoffee.CupOrderAdmin.Core.csproj",
+      "msbuildProject": "../WiredBrainCoffee.CupOrderAdmin.Core/WiredBrainCoffee.CupOrderAdmin.Core.csproj"
+    },
+    "WiredBrainCoffee.CupOrderAdmin.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../WiredBrainCoffee.CupOrderAdmin.DataAccess/WiredBrainCoffee.CupOrderAdmin.DataAccess.csproj",
+      "msbuildProject": "../WiredBrainCoffee.CupOrderAdmin.DataAccess/WiredBrainCoffee.CupOrderAdmin.DataAccess.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Microsoft.Extensions.DependencyInjection >= 2.2.0",
+      "WiredBrainCoffee.CupOrderAdmin.Core >= 1.0.0",
+      "WiredBrainCoffee.CupOrderAdmin.DataAccess >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\bsegunto\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\.Net unit testing lessons\\02\\demos\\after\\WiredBrainCoffee.CupOrderAdmin.UI\\WiredBrainCoffee.CupOrderAdmin.UI.csproj",
+      "projectName": "WiredBrainCoffee.CupOrderAdmin.UI",
+      "projectPath": "D:\\.Net unit testing lessons\\02\\demos\\after\\WiredBrainCoffee.CupOrderAdmin.UI\\WiredBrainCoffee.CupOrderAdmin.UI.csproj",
+      "packagesPath": "C:\\Users\\bsegunto\\.nuget\\packages\\",
+      "outputPath": "D:\\.Net unit testing lessons\\02\\demos\\after\\WiredBrainCoffee.CupOrderAdmin.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\bsegunto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "D:\\.Net unit testing lessons\\02\\demos\\after\\WiredBrainCoffee.CupOrderAdmin.Core\\WiredBrainCoffee.CupOrderAdmin.Core.csproj": {
+              "projectPath": "D:\\.Net unit testing lessons\\02\\demos\\after\\WiredBrainCoffee.CupOrderAdmin.Core\\WiredBrainCoffee.CupOrderAdmin.Core.csproj"
+            },
+            "D:\\.Net unit testing lessons\\02\\demos\\after\\WiredBrainCoffee.CupOrderAdmin.DataAccess\\WiredBrainCoffee.CupOrderAdmin.DataAccess.csproj": {
+              "projectPath": "D:\\.Net unit testing lessons\\02\\demos\\after\\WiredBrainCoffee.CupOrderAdmin.DataAccess\\WiredBrainCoffee.CupOrderAdmin.DataAccess.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
